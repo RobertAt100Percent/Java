@@ -12,19 +12,19 @@ public static void main(String[] args){
     System.out.println("This program will take your change and credit your account.");
 
 
-    System.out.println("How many pennies are you inputting : ");
+    System.out.print("How many pennies are you inputting : ");
     p = scan.nextInt();  // Read user input
     p = p * 0.01;
 
-    System.out.println("How many nickles are you inputting : ");
+    System.out.print("How many nickles are you inputting : ");
     n = scan.nextInt();  // Read user input
     n = n * 0.05;
 
-    System.out.println("How many dimes are you inputting : ");
+    System.out.print("How many dimes are you inputting : ");
     d = scan.nextInt();  // Read user input
     d = d * 0.1;
 
-    System.out.println("How many quarters are you inputting : ");
+    System.out.print("How many quarters are you inputting : ");
     q = scan.nextInt();  // Read user input
     q = q * 0.25;
 
@@ -32,7 +32,6 @@ public static void main(String[] args){
     double sum = p+n+d+q;
     double cents = sum - Math.floor(sum);
 
-    System.out.println(sum);
     System.out.println("we will now credit your account with " + String.format("%.2f", Math.floor(sum))  +" dollars and " + String.format("%.2f", cents) +" cents.");
     
 
