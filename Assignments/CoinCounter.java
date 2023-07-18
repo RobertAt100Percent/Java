@@ -6,7 +6,7 @@ public static void main(String[] args){
     //declare and initalize all needed variables
     //import and use the scanner object
     Scanner scan = new Scanner(System.in);
-    double p,n,d,q;
+    double p = 0 ,n = 0,d = 0,q = 0;
     //prompt the user
     System.out.println("**********Welcome To The Year Up Change Counter**********");
     System.out.println("This program will take your change and credit your account.");
