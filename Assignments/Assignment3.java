@@ -56,15 +56,15 @@ public class Assignment3 {
 
         grade = scan.nextDouble();
 
-        if (grade>90) {
+        if (grade>=90) {
          System.out.println(grade + " is equal to a A");
-       } else if (grade>80) {
+       } else if (grade>=80) {
          System.out.println(grade + " is equal to a B");         
-       } else if (grade>70) {
+       } else if (grade>=70) {
          System.out.println(grade + " is equal to a C");
-       } else if (grade>60) {
+       } else if (grade>=60) {
          System.out.println(grade + " is equal to a D");
-       } else if (grade>50) {
+       } else if (grade>=50) {
          System.out.println(grade + " is equal to a E");
        } else {
          System.out.println(grade + " is equal to a F");
