@@ -4,7 +4,7 @@ import java.util.Scanner;
 import java.lang.Math;
 public class Assignment4 {
     public static void main(String[] args){
-        //import the scanner class to allo wuser input
+        //import the scanner class to allow user input
         Scanner scan = new Scanner(System.in);
 
         // intilaze and declare all need variables
